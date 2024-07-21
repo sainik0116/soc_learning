@@ -1,10 +1,6 @@
 SOC-learning : <details>
            <summary>DAY 1 : TOOL INSTALLATION</summary>
-           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
-         </details>
-
-
-YOSYS :
+           <p>YOSYS :
 
 ![Yosys](https://github.com/user-attachments/assets/90c11a4f-d722-4a08-9d82-67972123b419)
 IVERILOG :
@@ -13,4 +9,8 @@ IVERILOG :
 
 OPEN STA :
 
-![Open_STA](https://github.com/user-attachments/assets/1d9a14fc-168c-443e-ba80-40ce13e6b5f2)
+![Open_STA](https://github.com/user-attachments/assets/1d9a14fc-168c-443e-ba80-40ce13e6b5f2)</p>
+         </details>
+
+
+

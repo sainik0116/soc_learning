@@ -1,5 +1,8 @@
--or* 
-DAY 1 : TOOL INSTALLATION
+SOC-learning : <details>
+           <summary>DAY 1 : TOOL INSTALLATION</summary>
+           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+         </details>
+
 
 YOSYS :
 

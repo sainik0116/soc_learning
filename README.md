@@ -15,5 +15,5 @@ gtkwave :
          </details>
 SOC-learning : <details>
            <summary>DAY 2 - Introduction to Verilog RTL Design and Synthesis</summary>
-
+           BLOCK DIAGRAM OF TESTBENCH
 

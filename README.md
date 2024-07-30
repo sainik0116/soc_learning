@@ -16,7 +16,7 @@ gtkwave :
 SOC-learning : <details>
            <summary>DAY 2 - Introduction to Verilog RTL Design and Synthesis</summary>
            BLOCK DIAGRAM OF IVERILOG BASED SIMULATION FLOW:
-           [Screenshot (283)](https://github.com/user-attachments/assets/74ccd96d-384d-4249-89a7-7d7580e52a36)
+           ![Screenshot (283)](https://github.com/user-attachments/assets/74ccd96d-384d-4249-89a7-7d7580e52a36)
            Simulator:  -> RTL Design is checked for adherence to the spec by simulating the design.
                        -> Simualtor is the tool used for simulating the design. Iverilog is the tool used for this course
            Design : -> Design is the actual verilog code or the set of verilog codes which has the intended functionality

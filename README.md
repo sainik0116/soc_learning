@@ -16,4 +16,4 @@ gtkwave :
 SOC-learning : <details>
            <summary>DAY 2 - Introduction to Verilog RTL Design and Synthesis</summary>
            BLOCK DIAGRAM OF TESTBENCH
-
+           ![Screenshot (282)](https://github.com/user-attachments/assets/855efcc4-f476-427c-97e2-b25658cfd65c)

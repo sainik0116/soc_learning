@@ -13,7 +13,7 @@ gtkwave :
 
 ![gtkwave_tool_working_snapshot](https://github.com/user-attachments/assets/6bf15da3-4d17-4ff8-bfbc-0a20e5409c17)</p>
          </details>
- : <details>
+  </details>
            <summary>DAY 2 - Introduction to Verilog RTL Design and Synthesis</summary>
            BLOCK DIAGRAM OF IVERILOG BASED SIMULATION FLOW:
            ![Screenshot (283)](https://github.com/user-attachments/assets/74ccd96d-384d-4249-89a7-7d7580e52a36)

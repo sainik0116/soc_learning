@@ -14,5 +14,6 @@ gtkwave :
 ![gtkwave_tool_working_snapshot](https://github.com/user-attachments/assets/6bf15da3-4d17-4ff8-bfbc-0a20e5409c17)</p>
          </details>
 
-
+SOC-learning : <details>
+           <summary>DAY 2 : Introduction to Verilog RTL Design and Synthesis</summary>
 

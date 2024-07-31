@@ -133,6 +133,13 @@ SOC-learning :  <details>
               *  <= Non-blocking
                   Executes all the RHS when always block is entered and assigns to LHS.
                   Parallel evaluation.
+             LAB work example to show bad_mux: 
+             Which has the sensitivity Mismatch problem:
+             Before GLS :
+             Commands used before GLS :
+             ![bad_mux_commands_before_GLS-1](https://github.com/user-attachments/assets/5194dcd6-a5d5-47e6-90a6-4869bd444526)
+             Waveform to be observed how sensitivity list is effecting the output before GLS:
+             
            
 
            

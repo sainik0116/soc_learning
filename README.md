@@ -78,22 +78,21 @@ SOC-learning :  <details>
            <summary>Day 4  - Combinational and sequential optmizations</summary>
            There are some images of hand-wriiten notes I want to share with you for Combinational and sequential circuits logic optmization:
            Bare with my hand-writing , but it is really good info given in the videos i just wanted to share some of the knowledge I gained.
-           ![WhatsApp Image 2024-07-30 at 6 11 15 PM](https://github.com/user-attachments/assets/600e3ba3-2a18-41f8-a4f7-70dde9198b27)
-           ![WhatsApp Image 2024-07-30 at 6 11 16 PM](https://github.com/user-attachments/assets/c6b4ddf8-9813-47f4-a906-71a1a08754b6)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (1)](https://github.com/user-attachments/assets/2dad7b0f-7f4c-4e1e-9a63-e4489d7bf3f3)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (2)](https://github.com/user-attachments/assets/92c3f6ce-b9b6-4722-be52-5e87b0fc5037)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (3)](https://github.com/user-attachments/assets/3b83b372-f025-479c-9165-f2ba283aeede)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (4)](https://github.com/user-attachments/assets/5565d71e-2d91-4550-9b0a-7c7347d20cc2)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (5)](https://github.com/user-attachments/assets/1127cc93-5802-4b8c-b568-815582f27f79)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (6)](https://github.com/user-attachments/assets/ee074b9b-661c-4101-bb1d-a73637d2db01)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (7)](https://github.com/user-attachments/assets/4d528674-7cdc-4957-be09-259602bebd0f)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (8)](https://github.com/user-attachments/assets/73307b79-8d7f-4080-b34a-70f9e9b9e819)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (9)](https://github.com/user-attachments/assets/ee888132-ff94-4b71-84f7-65bdb75a8df2)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (10)](https://github.com/user-attachments/assets/7ffaa113-6549-4658-8ab1-5dcea828d4a2)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (11)](https://github.com/user-attachments/assets/f3ee6e64-8831-4bc8-81d9-1b93919a68c3)
-           ![WhatsApp Image 2024-07-30 at 6 11 17 PM](https://github.com/user-attachments/assets/8486d4e7-937e-4bc6-82f3-ebe957c8bcdb)
-           ![WhatsApp Image 2024-07-30 at 6 11 15 PM (1)](https://github.com/user-attachments/assets/e14d087f-b155-4004-82af-9433de86c68a)
-           
+           ![WhatsApp Image 2024-07-30 at 6 11 15 PM (1)](https://github.com/user-attachments/assets/4db27caa-1b7b-48cf-9953-64c7adc43b19)
+           ![WhatsApp Image 2024-07-30 at 6 11 15 PM](https://github.com/user-attachments/assets/cf5248b3-c5a8-4b29-9a67-ed15a3a6ddf0)
+           ![WhatsApp Image 2024-07-30 at 6 11 16 PM](https://github.com/user-attachments/assets/dbcde17d-1c35-4090-a331-730c969f0be1)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (1)](https://github.com/user-attachments/assets/6039d4b9-dbb3-4195-902b-e50f2cc341ab)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (2)](https://github.com/user-attachments/assets/18330b16-7411-4403-9f39-646ab8ac3f1e)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (3)](https://github.com/user-attachments/assets/c1ff989c-bf36-4477-95f4-7d56a64af252)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (4)](https://github.com/user-attachments/assets/ca3cef79-fc32-4c5b-a9ed-ee5f857d2f8a)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (5)](https://github.com/user-attachments/assets/61f95dbe-b651-41a7-8ed3-52cd1d4e3b54)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (6)](https://github.com/user-attachments/assets/8ca9315c-f1f6-4bee-87ba-5f9ff3c194fc)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (7)](https://github.com/user-attachments/assets/34126f45-44d3-43b4-be87-8888911b74e4)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (8)](https://github.com/user-attachments/assets/d4ccab45-c82d-49f7-896a-a31a870352b0)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (9)](https://github.com/user-attachments/assets/0f1136ab-9df7-4f6a-a5c2-8dc3939a60b1)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (10)](https://github.com/user-attachments/assets/a68649af-dbef-48e8-9a20-aa3317fd35e4)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM (11)](https://github.com/user-attachments/assets/be7d25ea-6a82-43d5-a9aa-c73e327ff3e0)
+           ![WhatsApp Image 2024-07-30 at 6 11 17 PM](https://github.com/user-attachments/assets/f30a6c51-17af-4ee3-ab0a-d05729b81569)
            
            
 

@@ -139,6 +139,12 @@ SOC-learning :  <details>
              Commands used before GLS :
              ![bad_mux_commands_before_GLS-1](https://github.com/user-attachments/assets/5194dcd6-a5d5-47e6-90a6-4869bd444526)
              Waveform to be observed how sensitivity list is effecting the output before GLS:
+             ![Before_GLS_waveform_bad_max](https://github.com/user-attachments/assets/07ff8b96-b415-4f66-8246-21701388b6b1)
+             Here, Output changes only when the sel line changes, it is independent of changes in the input. This is not desirable !
+             After GLS :
+             ![bad_mux_commands_used_after_GLS](https://github.com/user-attachments/assets/5dceedb4-1b8c-4786-aa37-13bd2953ec29)
+             ![bad_mux_commands_after_GLS-1](https://github.com/user-attachments/assets/ac4d75ed-e442-43e0-936d-83f3d6066512)
+             
              
            
 

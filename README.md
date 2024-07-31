@@ -104,7 +104,24 @@ SOC-learning :  <details>
            2.) Retiming : This means we can adjust the combinational logic between the flops to make the worst(setup of flop1, setup of flop2) to a better setup timing.
            Example of what i am speaking about will be available in the below screenshot .
            ![Screenshot (309)](https://github.com/user-attachments/assets/9dc8834f-866f-4f42-8ed9-b7f8337634fd)
+           </details>
+           SOC-learning :  <details>
+           <summary>Day 4 - GLS, blocking vs non-blocking and Synthesis-Simulation mismatch</summary>
+           What is GLS ?
+           -> Running the testbench with netlist as Design under test
+           -> Netlist is logically same as RTL code.
+              -> Same testbench will align with the design.
+           why GLS ?
+           -> Verify the logical correctness of design after synthesis.
+           -> Ensuring the timing of the design is met.
+              -> For this GLS needs to be run with delay annotation.(Outisde the scope of this discussion)
+           ![Screenshot (335)](https://github.com/user-attachments/assets/32520423-4675-41f7-9aaf-9fb909483c65)
+           We will do GLS synthesis to check the functionality because of Synthesis simulation mismatch, 
+           In the below screenshots you can observe some of the reasons for Synthesis simulation mismatch.
+           ![Screenshot (336)](https://github.com/user-attachments/assets/1e2a1164-e002-420d-a9d5-d5ac74cff877)
+           ![Screenshot (338)](https://github.com/user-attachments/assets/b8668877-90bd-4fb3-a736-441aebc4cb4b)
            
+
            
            
 

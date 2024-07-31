@@ -99,6 +99,13 @@ SOC-learning :  <details>
            ![Screenshot (328)](https://github.com/user-attachments/assets/6e3002c3-537b-4651-af21-41cb9c027b50)
            ![Screenshot (329)](https://github.com/user-attachments/assets/949ad744-423a-4b9a-ba76-4000e4efa6e4)
            ![Screenshot (330)](https://github.com/user-attachments/assets/e63ee733-9180-48b8-8334-627342e0a976)
+           Some of the advanced techniques explained for optimisation :
+           1.) Cloning : So, in this technique if the slack between the launch flop to the capture flop is more then we can clone the launch flop closer the capture flop to optimise the timing.
+           2.) Retiming : This means we can adjust the combinational logic between the flops to make the worst(setup of flop1, setup of flop2) to a better setup timing.
+           Example of what i am speaking about will be available in the below screenshot .
+           ![Screenshot (309)](https://github.com/user-attachments/assets/9dc8834f-866f-4f42-8ed9-b7f8337634fd)
+           
+           
            
 
 

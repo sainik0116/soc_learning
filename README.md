@@ -36,6 +36,7 @@ SOC-learning :  <details>
            Netlist is the representation of design in terms of cells present in the .lib
            Verify the synthesis- Block diagram :
            ![Screenshot (287)](https://github.com/user-attachments/assets/f69155c5-8b12-41b8-a0e5-3ed146ea6c63)
+           </details>
 SOC-learning :  <details>
            <summary>Day 3 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles</summary>
            Introduction to .lib :

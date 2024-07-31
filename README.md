@@ -127,12 +127,12 @@ SOC-learning :  <details>
            ![Screenshot (316)](https://github.com/user-attachments/assets/1f3f62bc-28dd-435b-9227-02b24edf1b41)
            Blocking and Non-blocking Statements in verilog :
            -> Inside always block
-              * = -> Blocking 
-                   * executes the statements in the order it is written.
-                   * So, the first statement is evaluated before the second statement.
-              *  <= -> Non-blocking
-                       * Executes all the RHS when always block is entered and assigns to LHS.
-                       * Parallel evaluation.
+              * =  Blocking 
+                executes the statements in the order it is written.
+                So, the first statement is evaluated before the second statement.
+              *  <= Non-blocking
+                  Executes all the RHS when always block is entered and assigns to LHS.
+                  Parallel evaluation.
            
 
            

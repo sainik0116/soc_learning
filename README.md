@@ -110,11 +110,11 @@ SOC-learning :  <details>
            What is GLS ?
            -> Running the testbench with netlist as Design under test
            -> Netlist is logically same as RTL code.
-              -> Same testbench will align with the design.
+              * Same testbench will align with the design.
            why GLS ?
            -> Verify the logical correctness of design after synthesis.
            -> Ensuring the timing of the design is met.
-              -> For this GLS needs to be run with delay annotation.(Outisde the scope of this discussion)
+              * For this GLS needs to be run with delay annotation.(Outisde the scope of this discussion)
            ![Screenshot (335)](https://github.com/user-attachments/assets/32520423-4675-41f7-9aaf-9fb909483c65)
            We will do GLS synthesis to check the functionality because of Synthesis simulation mismatch, 
            In the below screenshots you can observe some of the reasons for Synthesis simulation mismatch.

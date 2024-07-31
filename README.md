@@ -40,7 +40,8 @@ SOC-learning :  <details>
            <summary> Day 3 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
            Introduction to .lib :
            example of a .lib file is "sky_130_fd_sc_hd_tt_025c_1v80 : describes about process-tt corner , temperature : 25 C , Operating Voltage : 1.8 volts.
-           This is specifying at a particular PVT corner, set of cells which were characterised and the information of those cells is given in terms of their timing and output capacitance  for all possible combinations for differrent drive strenghts. We also have  power(leakage, dynamic and static) information also inside the cell. 
+           This is specifying at a particular PVT corner, set of cells which were characterised and the information of those cells is given in terms of their timing and output capacitance  for all possible 
+           combinations for differrent drive strenghts. We also have  power(leakage, dynamic and static) information also inside the cell. 
            ![Screenshot (301)](https://github.com/user-attachments/assets/09df6fcc-9c75-413c-8c35-0a8d43d92df7)
            ![Screenshot (302)](https://github.com/user-attachments/assets/e73a1414-052b-4349-9c5d-cd0f7910bb9b)
            Showing an example of a mutltiple_modules.v block : hierarchy vs flatten
@@ -56,11 +57,11 @@ SOC-learning :  <details>
            ![submodule_written_verilog_code_after_synth_hierarchy](https://github.com/user-attachments/assets/e2978027-bdfb-4160-aed1-c6ee440a52f4)
            One important thing about Synthesis is it always calculate the logical effort of the design and take appropriate cells from the .lib during synthesizing the circuit for optimisation.
 
-           Advantages of Sub-module synthesis :
+           Advantages of Sub-module synthesis
            1.) When we have multiple instances of same module, we can save time by synthesizing the sub-module once and use it multiple times.
            2.) Divide and conquer : Let's say we have a massive design, which is unable to synthesize the netlist properly, we can break the netlist into couple of sub-modules , synthesize and stitch it later.
 
-           Why flops ? : A very important topic
+           Why flops ?,  A very important topic
            -> So, theoritically if we observe Glitch is one of the important reasons we went to the flops.
            -> With the flops in between the combinational circuit will actually prevent the glitches.
            Giving you the screenshot of the explanation :

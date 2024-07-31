@@ -56,11 +56,9 @@ SOC-learning :  <details>
            ![submodule_flatten_verilog_code_after_synth](https://github.com/user-attachments/assets/22402a81-085b-453b-a0d0-513dfe216240)
            ![submodule_written_verilog_code_after_synth_hierarchy](https://github.com/user-attachments/assets/e2978027-bdfb-4160-aed1-c6ee440a52f4)
            One important thing about Synthesis is it always calculate the logical effort of the design and take appropriate cells from the .lib during synthesizing the circuit for optimisation.
-
            Advantages of Sub-module synthesis
            1.) When we have multiple instances of same module, we can save time by synthesizing the sub-module once and use it multiple times.
            2.) Divide and conquer : Let's say we have a massive design, which is unable to synthesize the netlist properly, we can break the netlist into couple of sub-modules , synthesize and stitch it later.
-
            Why flops ?,  A very important topic
            -> So, theoritically if we observe Glitch is one of the important reasons we went to the flops.
            -> With the flops in between the combinational circuit will actually prevent the glitches.

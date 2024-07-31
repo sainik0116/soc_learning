@@ -93,10 +93,9 @@ SOC-learning :  <details>
            ![WhatsApp Image 2024-07-30 at 6 11 17 PM (10)](https://github.com/user-attachments/assets/a68649af-dbef-48e8-9a20-aa3317fd35e4)
            ![WhatsApp Image 2024-07-30 at 6 11 17 PM (11)](https://github.com/user-attachments/assets/be7d25ea-6a82-43d5-a9aa-c73e327ff3e0)
            ![WhatsApp Image 2024-07-30 at 6 11 17 PM](https://github.com/user-attachments/assets/f30a6c51-17af-4ee3-ab0a-d05729b81569)
-           
-           Logical-optimisation ;
+            Logical-optimisation :
            I am providing you a simple example of a mux optimised to and gate.
-           Here are the screenshots of the optimisation;
+           Here are the screenshots of the optimisation :
            ![Screenshot (328)](https://github.com/user-attachments/assets/6e3002c3-537b-4651-af21-41cb9c027b50)
            ![Screenshot (329)](https://github.com/user-attachments/assets/949ad744-423a-4b9a-ba76-4000e4efa6e4)
            ![Screenshot (330)](https://github.com/user-attachments/assets/e63ee733-9180-48b8-8334-627342e0a976)

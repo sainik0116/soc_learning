@@ -120,6 +120,12 @@ SOC-learning :  <details>
            In the below screenshots you can observe some of the reasons for Synthesis simulation mismatch.
            ![Screenshot (336)](https://github.com/user-attachments/assets/1e2a1164-e002-420d-a9d5-d5ac74cff877)
            ![Screenshot (338)](https://github.com/user-attachments/assets/b8668877-90bd-4fb3-a736-441aebc4cb4b)
+           Missing Sensitivity list :
+           let us take an example of mux 2 x 1,
+           if we only provide select line as an input to the sensitivity list this will break the logic because as we know that in simulation when the input changes then only the output changes . So, if the input lines are not provided to the mux in the sensitvity list then output does not change if input (i0 or i1) changes keeping the sel line constant.
+           Giving you the screenshot of the missing sensitivity list.
+           ![Screenshot (316)](https://github.com/user-attachments/assets/1f3f62bc-28dd-435b-9227-02b24edf1b41)
+           
            
 
            

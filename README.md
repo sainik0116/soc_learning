@@ -37,7 +37,7 @@ SOC-learning :  <details>
            Verify the synthesis- Block diagram :
            ![Screenshot (287)](https://github.com/user-attachments/assets/f69155c5-8b12-41b8-a0e5-3ed146ea6c63)
 SOC-learning :  <details>
-           <summary> Day 3 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles</summary>
+           <summary>Day 3 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles</summary>
            Introduction to .lib :
            example of a .lib file is "sky_130_fd_sc_hd_tt_025c_1v80 : describes about process-tt corner , temperature : 25 C , Operating Voltage : 1.8 volts.
            This is specifying at a particular PVT corner, set of cells which were characterised and the information of those cells is given in terms of their timing and output capacitance  for all possible 

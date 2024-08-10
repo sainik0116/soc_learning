@@ -183,6 +183,16 @@ SOC-learning : <details>
            ![Screenshot (367)](https://github.com/user-attachments/assets/412cb933-5152-4381-93b9-891d41685089)
            ![Screenshot (368)](https://github.com/user-attachments/assets/626758df-15a5-4456-b77c-6bdbc08d3622)
            So, to decide which implemenatation is the best we need to know the constraints first.
+           INTRODUCTION TO DC COMPILER
+           DC compiler is the mostly used synthesis tool in the VLSI industry , This tool is developed by synopyss EDA vendor .
+           Here are the slides which explain how dc_compiler synthesizes the rtl logic.
+           Through slides we will understand how the rtl code gets sythesized , what is the terminlogy used in the industry for sythesis. Then we will get to know. Then we will understabnd the ASIC flow at top level and then we will understand how DC compiler flow will work at the top level through the block diagrams.
+           ![Screenshot (370)](https://github.com/user-attachments/assets/abe0bfbe-3540-40ce-8f75-8904c8360298)
+           ![Screenshot (373)](https://github.com/user-attachments/assets/7fe1459e-0b79-4a94-b15a-2bfd3af7eee5)
+           ![Screenshot (374)](https://github.com/user-attachments/assets/dfa1d820-f45f-4f90-93a6-9e58a465fe02)
+           ![Screenshot (377)](https://github.com/user-attachments/assets/53c7c71b-afe1-4b56-93a1-56e66b6a1473)
+           ![Screenshot (379)](https://github.com/user-attachments/assets/bf9d5b30-2e17-4ec5-b19b-52fecc0a2f9d)
+           ![Screenshot (380)](https://github.com/user-attachments/assets/9b45a871-b0de-4386-8f6e-dd0d48a0e8b8)
            
 
 

@@ -147,7 +147,46 @@ SOC-learning :  <details>
              
              We can clearly observe after the GLS ,the synthesised netlist is giving the waveforms where output changes when the input changes as well as sel line changes.
              So, This synthesized netlist will give us the mismatch and let us know that there is a correction in the RTL. So, hence the significance of the GLS(Gate level synthesis is explained)
-             
+
+SOC-learning : <details>
+           <summary>DAY 5 : INTRODUCTION TO LOGIC SYNTHESIS</summary>
+           ![Screenshot (348)](https://github.com/user-attachments/assets/ed03062e-ced0-479c-922a-d58fcf52bf9d)
+           ![Screenshot (349)](https://github.com/user-attachments/assets/8e0e0516-d500-43f5-a891-3f6172b9d698)
+           ![Screenshot (351)](https://github.com/user-attachments/assets/05a61fdd-45b7-446c-8f9b-73388273e793)
+           Digital logic helps us to deisgn the logic we want in real life applications like PC's,laptops, Washing machines etc.       
+           We know that logic synthesis is  been done through synthesizing the rtl code.
+           How did we do this ? .We will explain it in the next slide .
+           ![Screenshot (352)](https://github.com/user-attachments/assets/cf43c6e6-0b42-4961-a6c3-374afe2c3c4e)
+
+           Now we need to understand what is .lib ? .lib is the file which helps us to pick the right cell for the rtl logic in the synthesis. This depends on several factors like PVT corners, timing, power , drive strength  etc.
+           So, when we synthesize the rtl logic we need to know which cells are required to meet the setup and hold violations , which cell has the better performance and less area.
+           So, mainly the challenge engineers face is to optimise the PPA(Power,Performance and Area) . This is the , most important part in the whole VLSI design.
+           ![Screenshot (354)](https://github.com/user-attachments/assets/a2f79ccd-37f9-4921-a6e1-a26965b33961).
+           Then next comes to understand the significance of why we require the different types of cells in the .lib file and how we deal with this when we optimise the timing for the design.
+           This is been explained in the next slides.
+           ![Screenshot (355)](https://github.com/user-attachments/assets/c0ce811d-f5a8-4237-9bf9-bfaac45b99c0)
+           ![Screenshot (356)](https://github.com/user-attachments/assets/62928bd6-2dac-44da-aa4e-06add0eadf50)
+           ![Screenshot (357)](https://github.com/user-attachments/assets/4203518b-c509-440a-b870-215c079c0166)
+           ![Screenshot (358)](https://github.com/user-attachments/assets/447251e1-18b4-4a43-8933-8ff07f5978ef)
+           ![Screenshot (359)](https://github.com/user-attachments/assets/0f50c628-5918-46cb-8220-98f3531f9e39)
+           ![Screenshot (360)](https://github.com/user-attachments/assets/688baf92-b232-46a5-9f0a-804b0bd3e221)
+           Here i am gonna explain the synthesis illustration from a slide given.
+           So, when we give an rtl code we know that we can synthesize the rtl code into gate level blocks .
+           ![Screenshot (361)](https://github.com/user-attachments/assets/531d2f30-f336-4461-bc85-c5483f59571b)
+           Now, we have to understand the significance of the constraints.
+           How constraints are helpful in understanding which design is required for the application .
+           Here is the slide which presents three implementations for a rtl code .
+           ![Screenshot (362)](https://github.com/user-attachments/assets/4546c90d-583b-4fd1-be73-f8146d71b163)
+           Let us know analyse which implementatation is the best 
+           ![Screenshot (363)](https://github.com/user-attachments/assets/6adc6b1e-2fa1-46a2-a358-6b7affa4bd39)
+           ![Screenshot (365)](https://github.com/user-attachments/assets/98a69b2c-c928-47f5-9364-c0e4049ccb17)
+           Now from the explanation in the slides , we caanot confirm that implentation is always the best . Because we will take a coarse example which says that hold time is not meeting with the implenattion 3 then we cannot prefer implementation 3.
+           ![Screenshot (367)](https://github.com/user-attachments/assets/412cb933-5152-4381-93b9-891d41685089)
+           ![Screenshot (368)](https://github.com/user-attachments/assets/626758df-15a5-4456-b77c-6bdbc08d3622)
+           So, to decide which implemenatation is the best we need to know the constraints first.
+           
+
+
            
 
            

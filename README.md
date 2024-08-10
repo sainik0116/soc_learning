@@ -204,9 +204,43 @@ SOC-learning : <details>
            ![WhatsApp Image 2024-08-10 at 3 01 28 PM](https://github.com/user-attachments/assets/b5296c2b-71a4-46af-882d-5551a481f731)
            ![WhatsApp Image 2024-08-10 at 3 01 40 PM](https://github.com/user-attachments/assets/71f83071-cf09-4d6e-803f-569244dd705c)
            ![WhatsApp Image 2024-08-10 at 3 01 54 PM](https://github.com/user-attachments/assets/50049d84-f421-4bf5-8e24-2cb3117e7ec3)
-
-
+           </details>
            
+SOC-learning : <details>
+           <summary>DAY 6 : BASICS OF STA(Static Timing Analysis)</summary>
+           First slide explains:
+           Max delay constraint : Constraint which says that this is the max delay we can have in the design to make it function normally. If it is more than this it will effect the performance. (Setup time)
+           Min delay constarint : Constarint which says that this is the min delay constarint we can have in the design , so that the design will not get it's performance deteriorated. (Hold time)
+           ![Screenshot (408)](https://github.com/user-attachments/assets/989fc8d4-43c4-465d-ac8e-98c9b6a6bccc)
+           Now, we will understand this water bucket analogy while analysing what are the factors that gonna effect the delay.
+           ![Screenshot (409)](https://github.com/user-attachments/assets/cf27e67a-3d6c-4884-a32e-d95c0b2bf3c5)
+           ![Screenshot (412)](https://github.com/user-attachments/assets/a9fd146d-2aba-4846-9099-526323cf9c0f)
+           Water Bucket analogy says that the delay of the cell is the function of input transition and ouptut capacitance.
+           ![Screenshot (415)](https://github.com/user-attachments/assets/11ef81af-e106-470c-bfea-ccc6a616e264)
+           Here is something we need to understand about timing arcs in comabinational and sequential circuits:
+           They are useful in the analysis of the delay in a cell.
+           ![Screenshot (416)](https://github.com/user-attachments/assets/e6a8e1c5-7bd5-464f-afdc-9b8c2095ae7a)
+           ![Screenshot (420)](https://github.com/user-attachments/assets/e5bdb40d-37a9-4689-836f-74282f4a46f7)
+           Now, we need to understand the timing paths. This is really important when you do physcial design beacause, we need to know the worst case scenario of the design to know what frequency can it work on without breaking the functionality. This paths are generally called as critical paths.
+           ![Screenshot (425)](https://github.com/user-attachments/assets/de1fd449-7042-46f1-8acc-bf0d9d528811)
+           Here is one of the beautiful explanation given regarding a design and how to model the design by considering the constraints. 
+           ![Screenshot (426)](https://github.com/user-attachments/assets/7bad3e15-ae2e-456e-8909-0e8a9875c1c8)
+           ![Screenshot (428)](https://github.com/user-attachments/assets/fa06479a-4a49-4b5e-bd8c-8742947dda03)
+           ![Screenshot (429)](https://github.com/user-attachments/assets/11a2ab87-f432-465d-99a2-4cdc1f94afe8)
+           ![Screenshot (430)](https://github.com/user-attachments/assets/3d4c4bec-a1ad-4009-959b-0b127af81d50)
+           ![Screenshot (431)](https://github.com/user-attachments/assets/50568dfa-d113-4ea9-a907-52aff451640f)
+           ![Screenshot (432)](https://github.com/user-attachments/assets/6bcf7855-b5c9-46db-b9fe-bb97bdedf63c)
+           ![Screenshot (433)](https://github.com/user-attachments/assets/d15bb8ee-cf35-48ea-8841-86318854089a)
+           ![Screenshot (434)](https://github.com/user-attachments/assets/770fff06-b215-4b7d-8774-516a11b70248)
+           ![Screenshot (435)](https://github.com/user-attachments/assets/81a354f0-7e48-4405-bc7c-921822a588e6)
+           ![Screenshot (436)](https://github.com/user-attachments/assets/007dd20a-bc4a-4dff-83f7-932d697a95d7)
+           ![Screenshot (437)](https://github.com/user-attachments/assets/4d6587cd-8e36-4b40-9ba8-e40c41f7e182)
+           ![Screenshot (438)](https://github.com/user-attachments/assets/7f99c05f-3361-42a6-8fea-bd6f56bd2d64)
+           ![Screenshot (439)](https://github.com/user-attachments/assets/0176fd07-1cdf-4e9d-a344-811edd4d80d8)
+           ![Screenshot (440)](https://github.com/user-attachments/assets/ed75ee75-0c21-49bc-abd8-15b3bbaa5676)
+           ![Screenshot (441)](https://github.com/user-attachments/assets/45a0c7ed-4cf9-4c4c-97f3-370d97e8c5c0)
+           ![Screenshot (442)](https://github.com/user-attachments/assets/76fb2e94-3bf0-404f-ac36-fca94b079b82)
+
 
            
            

@@ -193,7 +193,17 @@ SOC-learning : <details>
            ![Screenshot (377)](https://github.com/user-attachments/assets/53c7c71b-afe1-4b56-93a1-56e66b6a1473)
            ![Screenshot (379)](https://github.com/user-attachments/assets/bf9d5b30-2e17-4ec5-b19b-52fecc0a2f9d)
            ![Screenshot (380)](https://github.com/user-attachments/assets/9b45a871-b0de-4386-8f6e-dd0d48a0e8b8)
-           
+           I am providing you some of the lab work I had done with DC compiler tool .
+           ![Screenshot (397)](https://github.com/user-attachments/assets/950a36c4-ce7c-458c-847a-de18deb12486)
+           ![Screenshot (398)](https://github.com/user-attachments/assets/c5325f49-33c8-4590-a199-4fc8b5fcdd34)
+           ![Screenshot (399)](https://github.com/user-attachments/assets/eca3ee7d-960e-47c2-a740-daec9e304a00)
+           ![Screenshot (400)](https://github.com/user-attachments/assets/a4ccbfb1-f98f-45dd-95aa-582a9fd1fd14)
+           ![Screenshot (401)](https://github.com/user-attachments/assets/57851f14-3419-4f88-bc9b-b8d18609018e)
+           ![Screenshot (402)](https://github.com/user-attachments/assets/c8f1b3d6-5699-4e36-8235-16649b33ce9f)
+           I am also giving you some lab notes I prepared.
+           ![WhatsApp Image 2024-08-10 at 3 01 28 PM](https://github.com/user-attachments/assets/33c80270-3dac-4bbf-b027-deda8d8341a3)
+           ![WhatsApp Image 2024-08-10 at 3 01 40 PM](https://github.com/user-attachments/assets/73058be0-c25f-48e9-b54e-31b130b626e1)
+           ![WhatsApp Image 2024-08-10 at 3 01 54 PM](https://github.com/user-attachments/assets/4dfcbc4a-7eaf-46ba-8a6c-ead161e9a69e)
 
 
            

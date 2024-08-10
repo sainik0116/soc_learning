@@ -241,8 +241,11 @@ SOC-learning : <details>
            ![Screenshot (441)](https://github.com/user-attachments/assets/45a0c7ed-4cf9-4c4c-97f3-370d97e8c5c0)
            ![Screenshot (442)](https://github.com/user-attachments/assets/76fb2e94-3bf0-404f-ac36-fca94b079b82)
            So, here we took only analyzed the setup time , we should also analyze the hold time for IO paths.
-
-
+           There is another important concept called as timimg unateness . 
+           Which helps us to know the timing sense of the block present in the .lib.
+           ![Screenshot (451)](https://github.com/user-attachments/assets/277cd9aa-c1c8-4515-9f31-1a433152d508)
+           
+           
            
            
 

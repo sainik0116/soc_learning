@@ -244,6 +244,27 @@ SOC-learning : <details>
            There is another important concept called as timimg unateness . 
            Which helps us to know the timing sense of the block present in the .lib.
            ![Screenshot (451)](https://github.com/user-attachments/assets/277cd9aa-c1c8-4515-9f31-1a433152d508)
+           This is what some of the lab work which helped me to understand  DC compiler tool , practice this stuff 
+           ![Screenshot (454)](https://github.com/user-attachments/assets/c749f391-1327-4bf5-ae0b-eebe76e006de)
+           ![Screenshot (455)](https://github.com/user-attachments/assets/d719e9b0-1dfb-4eba-9f4d-bfc7ff98218f)
+           ![Screenshot (456)](https://github.com/user-attachments/assets/9d38651d-3587-4ce0-85c3-9e15f55c0db7)
+           ![Screenshot (457)](https://github.com/user-attachments/assets/e1b02e7e-b6be-4a7e-8ec9-94a3669d6842)
+           ![Screenshot (458)](https://github.com/user-attachments/assets/79961ac0-1c98-4f9f-9532-bddc3a6c248a)
+           ![Screenshot (459)](https://github.com/user-attachments/assets/1ab810b3-1767-4be9-b991-f835731a45af)
+           ![Screenshot (460)](https://github.com/user-attachments/assets/8dd5c0d5-28ed-4abb-a91d-5b724dc784c2)
+           ![Screenshot (461)](https://github.com/user-attachments/assets/325b48b4-b475-4dd4-b658-bcd24560384e)
+           ![Screenshot (462)](https://github.com/user-attachments/assets/1ddc94c7-0cdc-4e70-8de4-6df3d4ebbd27)
+           ![Screenshot (463)](https://github.com/user-attachments/assets/6347f81c-9913-4dd4-99e1-115717e24965)
+           ![Screenshot (464)](https://github.com/user-attachments/assets/2d010e68-43e0-47a3-83fd-89caabbfc935)
+           ![Screenshot (465)](https://github.com/user-attachments/assets/4ede5a97-9e60-4c85-bd36-f93c34247dfe)
+           ![Screenshot (466)](https://github.com/user-attachments/assets/70a150d0-2ec8-4513-a2fa-8a0472bab0b4)
+           ![Screenshot (467)](https://github.com/user-attachments/assets/e7664ce7-8268-420e-9b2c-5ef70c7dd75d)
+           ![Screenshot (468)](https://github.com/user-attachments/assets/8a8f80ae-06d6-43f4-bee6-2430cb058720)
+           ![Screenshot (469)](https://github.com/user-attachments/assets/2009c2df-1892-4561-be22-097c7e3bd1b4)
+           ![Screenshot (470)](https://github.com/user-attachments/assets/72a79b10-267e-4496-afad-bb2f667545a2)
+           ![Screenshot (471)](https://github.com/user-attachments/assets/fa7b9533-fd12-4d81-94ee-8938b3094534)
+           ![Screenshot (472)](https://github.com/user-attachments/assets/23d5ce1c-068b-4bcf-83fa-adfa132deaf8)
+           ![Screenshot (473)](https://github.com/user-attachments/assets/7eceff97-c894-434c-bad7-1a6c913d4f37)
            
            
            

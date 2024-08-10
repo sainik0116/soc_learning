@@ -240,6 +240,7 @@ SOC-learning : <details>
            ![Screenshot (440)](https://github.com/user-attachments/assets/ed75ee75-0c21-49bc-abd8-15b3bbaa5676)
            ![Screenshot (441)](https://github.com/user-attachments/assets/45a0c7ed-4cf9-4c4c-97f3-370d97e8c5c0)
            ![Screenshot (442)](https://github.com/user-attachments/assets/76fb2e94-3bf0-404f-ac36-fca94b079b82)
+           So, here we took only analyzed the setup time , we should also analyze the hold time for IO paths.
 
 
            

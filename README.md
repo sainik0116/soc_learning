@@ -157,7 +157,6 @@ SOC-learning : <details>
            We know that logic synthesis is  been done through synthesizing the rtl code.
            How did we do this ? .We will explain it in the next slide .
            ![Screenshot (352)](https://github.com/user-attachments/assets/cf43c6e6-0b42-4961-a6c3-374afe2c3c4e)
-
            Now we need to understand what is .lib ? .lib is the file which helps us to pick the right cell for the rtl logic in the synthesis. This depends on several factors like PVT corners, timing, power , drive strength  etc.
            So, when we synthesize the rtl logic we need to know which cells are required to meet the setup and hold violations , which cell has the better performance and less area.
            So, mainly the challenge engineers face is to optimise the PPA(Power,Performance and Area) . This is the , most important part in the whole VLSI design.

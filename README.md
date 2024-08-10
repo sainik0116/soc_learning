@@ -180,7 +180,7 @@ SOC-learning : <details>
            Let us know analyse which implementatation is the best 
            ![Screenshot (363)](https://github.com/user-attachments/assets/6adc6b1e-2fa1-46a2-a358-6b7affa4bd39)
            ![Screenshot (365)](https://github.com/user-attachments/assets/98a69b2c-c928-47f5-9364-c0e4049ccb17)
-           Now from the explanation in the slides , we caanot confirm that implentation is always the best . Because we will take a coarse example which says that hold time is not meeting with the implenattion 3 then we cannot prefer implementation 3.
+           Now from the explanation in the slides , we caanot confirm that implentation is always the best . Because we will take a coarse example which says that hold time is not meeting with the implentation 3 then we cannot prefer implementation 3.
            ![Screenshot (367)](https://github.com/user-attachments/assets/412cb933-5152-4381-93b9-891d41685089)
            ![Screenshot (368)](https://github.com/user-attachments/assets/626758df-15a5-4456-b77c-6bdbc08d3622)
            So, to decide which implemenatation is the best we need to know the constraints first.

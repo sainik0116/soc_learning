@@ -147,7 +147,7 @@ SOC-learning :  <details>
              
              We can clearly observe after the GLS ,the synthesised netlist is giving the waveforms where output changes when the input changes as well as sel line changes.
              So, This synthesized netlist will give us the mismatch and let us know that there is a correction in the RTL. So, hence the significance of the GLS(Gate level synthesis is explained)
-
+             </details>
 SOC-learning : <details>
            <summary>DAY 5 : INTRODUCTION TO LOGIC SYNTHESIS</summary>
            ![Screenshot (348)](https://github.com/user-attachments/assets/ed03062e-ced0-479c-922a-d58fcf52bf9d)

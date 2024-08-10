@@ -146,7 +146,7 @@ SOC-learning :  <details>
              ![bad_mux_commands_after_GLS-1](https://github.com/user-attachments/assets/ac4d75ed-e442-43e0-936d-83f3d6066512)
              
              We can clearly observe after the GLS ,the synthesised netlist is giving the waveforms where output changes when the input changes as well as sel line changes.
-             So, This synthesized netlist will give us the mismatch and let us know that there is a correction in the RTL. So, hence the significance of the GLS(Gate level synthesis is explained)
+             So, This synthesized netlist will give us the mismatch and let us know that there is a correction in the RTL. So, hence the significance of the GLS(Gate level synthesis is explained).
              </details>
 SOC-learning : <details>
            <summary>DAY 5 : INTRODUCTION TO LOGIC SYNTHESIS</summary>

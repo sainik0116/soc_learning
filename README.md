@@ -201,9 +201,9 @@ SOC-learning : <details>
            ![Screenshot (401)](https://github.com/user-attachments/assets/57851f14-3419-4f88-bc9b-b8d18609018e)
            ![Screenshot (402)](https://github.com/user-attachments/assets/c8f1b3d6-5699-4e36-8235-16649b33ce9f)
            I am also giving you some lab notes I prepared.
-           ![WhatsApp Image 2024-08-10 at 3 01 28 PM](https://github.com/user-attachments/assets/33c80270-3dac-4bbf-b027-deda8d8341a3)
-           ![WhatsApp Image 2024-08-10 at 3 01 40 PM](https://github.com/user-attachments/assets/73058be0-c25f-48e9-b54e-31b130b626e1)
-           ![WhatsApp Image 2024-08-10 at 3 01 54 PM](https://github.com/user-attachments/assets/4dfcbc4a-7eaf-46ba-8a6c-ead161e9a69e)
+           ![WhatsApp Image 2024-08-10 at 3 01 28 PM](https://github.com/user-attachments/assets/b5296c2b-71a4-46af-882d-5551a481f731)
+           ![WhatsApp Image 2024-08-10 at 3 01 40 PM](https://github.com/user-attachments/assets/71f83071-cf09-4d6e-803f-569244dd705c)
+           ![WhatsApp Image 2024-08-10 at 3 01 54 PM](https://github.com/user-attachments/assets/50049d84-f421-4bf5-8e24-2cb3117e7ec3)
 
 
            

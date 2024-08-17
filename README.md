@@ -350,7 +350,9 @@ Introduction to VSDBabySoC :
 VSDBabySoC is a small yet powerful RISCV-based SoC. The main purpose of designing such a small SoC is to test three open-source IP cores together for the first time and calibrate the analog part of it. VSDBabySoC contains one RVMYTH microprocessor, an 8x-PLL to generate a stable clock, and a 10-bit DAC to communicate with other analog devices.
 ![357534769-d7dcc6b8-e7dd-4fed-be88-7991e110a4eb](https://github.com/user-attachments/assets/e6cf23f7-489a-4c02-81de-09e51ed3dde5)
 
-
+REFERENCES:
+https://github.com/Subhasis-Sahu/SFAL-VSD?tab=readme-ov-file#what-is-a-soc-and-why-soc-should-be-used--
+https://github.com/vpamidi9/sfal-vsd-venkatesh
            
            
            

@@ -312,7 +312,44 @@ SoC Structure :
 
 SoC Design Flow :
 SoC development process can be broken into multiple stages as illustrated in the following figure:
+SoC Design Flow
+Specification and Planning:
+
+Define the system requirements, including performance, power, area, and functionality.
+Choose the target applications and markets.
+Architecture Design:
+
+Develop the overall architecture, including CPU, GPU, memory, and peripherals.
+Define the interconnect scheme and data flow.
+Component Selection:
+
+Choose standard IP cores (e.g., processors, memory controllers) or design custom components.
+Ensure compatibility and integration capability of all components.
+Integration and Verification:
+
+Integrate the chosen components into a unified design.
+Perform extensive verification using simulation, emulation, and formal methods to ensure functionality and performance.
+Physical Design:
+
+Perform synthesis to convert the high-level design into a gate-level netlist.
+Conduct floorplanning, placement, and routing to create the physical layout of the chip.
+Optimize for power, performance, and area (PPA).
+Fabrication and Testing:
+
+Send the final design to a semiconductor foundry for fabrication.
+Perform post-fabrication testing to ensure the chip meets specifications.
+Software Development:
+
+Develop and optimize software to run on the SoC, including drivers, operating systems, and applications.
+
+Ensure seamless integration between hardware and software components.
+
 ![SOC-designlifecycle-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/a00144f8-e7f4-42b6-bec7-086b784e2490)
+
+Introduction to VSDBabySoC :
+VSDBabySoC is a small yet powerful RISCV-based SoC. The main purpose of designing such a small SoC is to test three open-source IP cores together for the first time and calibrate the analog part of it. VSDBabySoC contains one RVMYTH microprocessor, an 8x-PLL to generate a stable clock, and a 10-bit DAC to communicate with other analog devices.
+![357534769-d7dcc6b8-e7dd-4fed-be88-7991e110a4eb](https://github.com/user-attachments/assets/e6cf23f7-489a-4c02-81de-09e51ed3dde5)
+
 
            
            

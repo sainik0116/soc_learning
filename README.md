@@ -265,6 +265,11 @@ SOC-learning : <details>
            ![Screenshot (471)](https://github.com/user-attachments/assets/fa7b9533-fd12-4d81-94ee-8938b3094534)
            ![Screenshot (472)](https://github.com/user-attachments/assets/23d5ce1c-068b-4bcf-83fa-adfa132deaf8)
            ![Screenshot (473)](https://github.com/user-attachments/assets/7eceff97-c894-434c-bad7-1a6c913d4f37)
+           </details>
+           
+SOC-learning : <details>
+           <summary>DAY 7 : INTRODUCTION TO BABY SOC MODELLING</summary>
+           https://github.com/Subhasis-Sahu/SFAL-VSD?tab=readme-ov-file#what-is-a-soc-and-why-soc-should-be-used--
            
            
            

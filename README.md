@@ -371,23 +371,28 @@ Install These Required Packages:
  $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
  $ sudo chmod 666 /var/run/docker.sock
  $ cd ~
+Step-by-Step process of modelling :
+
+1.)  While installing pip there are some challenges I faced while downloading the sandpiper-saas
+ ![pip-sandpiper-error](https://github.com/user-attachments/assets/ed4a499d-ac2d-43ba-96e0-fa2698474099)
+ The work-around which helped to overcome the problem of downloading the sandpiper -saas
+ ![work-around-fixing-pip-sandpiper-saas-module](https://github.com/user-attachments/assets/2f2eb6d9-b037-4d13-99f2-8e93df99a5b6)
+ ![sandpiper-saas screenshot](https://github.com/user-attachments/assets/6fbb6d59-2ef2-4a10-a3c8-9ef3929d04f4)
  
- While installing pip there are some challenges I faced while downloading the sandpiper-saas
+2.)
  ```
- dfbekbn
- ```
- $ pip3 install pyyaml click sandpiper-saas
 git clone https://github.com/manili/VSDBabySoC.git - clone this repo containing VSDBabySoC design files and testbench.
 
 cd /home/sai-goutham/VSDBabySoC
 
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/ - to translate .tlv definition of rvmyth into .v definition.
+```
+It will generate following .v files rvmyth.v and rvmyth_gen.v.
 
+view the ouput vcd file: cd /home/sai-goutham/VSDBabySoC/output/pre_synth_sim.vcd
 
-
-           
-           
-           
+waveform: DAC output is verified along with out 
+![BabySoC_functional_waveforms](https://github.com/user-attachments/assets/edf8c039-6dee-4cda-9afd-a7f841cdbab8)
            
 
 

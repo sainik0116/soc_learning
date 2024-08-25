@@ -371,12 +371,17 @@ Install These Required Packages:
  $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
  $ sudo chmod 666 /var/run/docker.sock
  $ cd ~
+ 
+ While installing pip there are some challenges I faced while downloading the sandpiper-saas
+ a >
+ dfbekbn
  $ pip3 install pyyaml click sandpiper-saas
 git clone https://github.com/manili/VSDBabySoC.git - clone this repo containing VSDBabySoC design files and testbench.
 
-cd /home/subhasis/VSDBabySoC
+cd /home/sai-goutham/VSDBabySoC
 
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/ - to translate .tlv definition of rvmyth into .v definition.
+
 
 
            

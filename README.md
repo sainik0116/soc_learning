@@ -373,7 +373,9 @@ Install These Required Packages:
  $ cd ~
  
  While installing pip there are some challenges I faced while downloading the sandpiper-saas
- > dfbekbn
+ '''
+ dfbekbn
+ '''
  $ pip3 install pyyaml click sandpiper-saas
 git clone https://github.com/manili/VSDBabySoC.git - clone this repo containing VSDBabySoC design files and testbench.
 

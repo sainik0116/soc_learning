@@ -361,6 +361,24 @@ Digital-to-Analog Converter (DAC): A DAC is a system that converts a digital sig
 REFERENCES:
 https://github.com/Subhasis-Sahu/SFAL-VSD?tab=readme-ov-file#what-is-a-soc-and-why-soc-should-be-used--
 https://github.com/vpamidi9/sfal-vsd-venkatesh
+
+Note :
+
+RVMYTH is designed and created by the TL-Verilog language. So we need a way for compile and transform it to the Verilog language and use the result in our SoC. Here the sandpiper-saas could help us do the job.
+Step-by-Step process of modelling :
+Install These Required Packages:
+
+ $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
+ $ sudo chmod 666 /var/run/docker.sock
+ $ cd ~
+ $ pip3 install pyyaml click sandpiper-saas
+git clone https://github.com/manili/VSDBabySoC.git - clone this repo containing VSDBabySoC design files and testbench.
+
+cd /home/subhasis/VSDBabySoC
+
+sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/ - to translate .tlv definition of rvmyth into .v definition.
+
+
            
            
            

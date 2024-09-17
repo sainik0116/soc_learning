@@ -413,7 +413,10 @@ RTL simulation is a zero delay environment and events generally occur on the act
 GLS can be zero delay also, but is more often used in unit delay or full timing mode.
 
 Gate level simulation is used to boost the confidence regarding implementation of a design and can help verify dynamic circuit behaviour, which cannot be verified accurately by static methods. It is a significant step in the verification process.
-           
+
+** To synthesize the VSDBabySoC design, **
+
+
 
 
            

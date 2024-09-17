@@ -393,6 +393,12 @@ view the ouput vcd file: cd /home/sai-goutham/VSDBabySoC/output/pre_synth_sim.vc
 
 waveform: DAC output is verified along with out 
 ![BabySoC_functional_waveforms](https://github.com/user-attachments/assets/edf8c039-6dee-4cda-9afd-a7f841cdbab8)
+</details>
+SOC-learning : <details>
+           <summary>DAY 8 : Post-Synthesis Simulation (GLS) of BabySoC</summary>
+           
+
+
            
 
 

@@ -396,12 +396,14 @@ waveform: DAC output is verified along with out
 </details>
 SOC-learning : <details>
            <summary>DAY 8 : Post-Synthesis Simulation (GLS) of BabySoC</summary>
-           Why do pre-synthesis Simulation? Why not just do post-synthesis Simulation? :
+
+#**Why do pre-synthesis Simulation? Why not just do post-synthesis Simulation? :**
 Pre-synthesis simulation is done according to the logic we have designed for and written -> only functionality.
 Post synthesis simulation / ‘gate level simulation’ is done after synthesis considering each and every gate delays into account. It reports the violations in both functionality and timing.
 This also shows the mismatches we are likely to get due to wrong usage of operators and inference of latches.
 For ex: using ‘X’(simulator terms/ synthesizer terms) - ‘Unknown’/“Don’t care”.
-GLS: a brief introduction :
+
+#**GLS: a brief introduction :**
 The term "gate level" refers to the netlist view of a circuit, usually produced by logic synthesis.
 
 So while RTL simulation is pre-synthesis, GLS is post-synthesis.
@@ -414,7 +416,9 @@ GLS can be zero delay also, but is more often used in unit delay or full timing 
 
 Gate level simulation is used to boost the confidence regarding implementation of a design and can help verify dynamic circuit behaviour, which cannot be verified accurately by static methods. It is a significant step in the verification process.
 
-** To synthesize the VSDBabySoC design, **
+#**To synthesize the VSDBabySoC design,**
+##**Converting .lib file to .db file**
+Convert .lib file to .db file using Synopsys Library Compiler (lc_shell). We need .db format for avsddac.lib, avsdpll.lib & sky130_fd_sc_hd__tt_025C_1v80.lib.
 
 
 

@@ -460,8 +460,19 @@ write_file -format verilog -hierarchy -output /home/sai/VSDBabySoC/output/babyso
 report_qor > report_qor.txt
 report_timing -nets -attributes -input_pins -transition_time -delay_type max > report_setup_sdc.txt
 report_timing -nets -attributes -input_pins -transition_time -delay_type min > report_hold_sdc.txt
-
 ```
+### QOR Report
+![qor_without_sdc_constraints](https://github.com/user-attachments/assets/23a1a03d-7960-474c-a020-e42a58155a51)
+![qor_without_sdc_constraints_2](https://github.com/user-attachments/assets/5c4b92c6-8217-4b25-a272-cb0d98a17765)
+
+### Commands to perform post-synthesis simulation:
+```
+iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 -o ./output/post_synth_sim.out ./src/gls_model/primitives.v ./src/gls_model/sky130_fd_sc_hd.v ./output/vsdbabysoc_net.v ./src/module/avsdpll.v ./src/module/avsddac.v ./src/module/testbench.v
+cd output
+./post_synth_sim.out
+gtkwave dump.vcd
+```
+
 
 
 

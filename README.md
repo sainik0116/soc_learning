@@ -454,7 +454,6 @@ set link_library {* /home/sai/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.d
 set search_path { /home/sai/VSDBabySoC/src/include/ /home/sai/VSDBabySoC/src/module/}
 read_file {sandpiper_gen.vh  sandpiper.vh  sp_default.vh  sp_verilog.vh clk_gate.v rvmyth.v rvmyth_gen.v vsdbabysoc.v} -autoread -top vsdbabysoc
 link
-read_sdc /home/sai/VSDBabySoC/src/sdc/vsdbabysoc_synthesis.sdc
 compile_ultra
 write_file -format verilog -hierarchy -output /home/sai/VSDBabySoC/output/babysoc_netlist.v
 report_qor > report_qor.txt

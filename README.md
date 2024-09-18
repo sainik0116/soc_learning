@@ -472,6 +472,12 @@ cd output
 ./post_synth_sim.out
 gtkwave dump.vcd
 ```
+### post-synth and pre-synth wave forms are same :
+We see the same output for pre synthesis and post synthesis : (Verified that functionality is same for pre-synthesis and post-synthesis)
+#### pre-synth :
+![Pre-GLS-BabySoC_functional_waveforms](https://github.com/user-attachments/assets/eaa856f1-7c68-4e34-8d53-a0cb6c5ae1c2)
+#### post-synth :
+![post_GLS_synthesis_waveform](https://github.com/user-attachments/assets/2ec637cb-f6b7-4c92-b1d1-9881e7afa74d)
 
 
 

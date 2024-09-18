@@ -416,6 +416,14 @@ Gate level simulation is used to boost the confidence regarding implementation o
 #**To synthesize the VSDBabySoC design,**
 ##**Converting .lib file to .db file**
 
+Errors while reading the .lib file 
+
+![errors_encountered_while_read_lib_post_gls](https://github.com/user-attachments/assets/08f4286f-14e3-43b4-baa3-36d8f6aeb0bd)
+
+After rectifying the issue in the .lib file , we are able to read the .lib file successfully while converting .lib file to .db file 
+
+![fixed_errors_while_Read_lib_post_GLS](https://github.com/user-attachments/assets/b9779da9-eaa7-4bc5-bf7d-92c75623ec13)
+
 Convert .lib file to .db file using Synopsys Library Compiler (lc_shell). We need .db format for avsddac.lib, avsdpll.lib & sky130_fd_sc_hd__tt_025C_1v80.lib.
 
 So, just as a heads up , if you are unsuccessful in coverting the .lib to .db files then please installl the sky130_fd_sc_hd__tt_025C_1v80.lib file 
@@ -433,6 +441,9 @@ write_lib avsdpll -format db -output sky130_fd_sc_hd__tt_025C_1v80.db
 This is the output we will see after the coversion of .lib to .db file
 
 ![coversion_lib_to_db](https://github.com/user-attachments/assets/c899d1ea-dd28-4fcb-854a-5203b4c803f3)
+
+
+
 
 
 

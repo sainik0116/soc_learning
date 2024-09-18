@@ -442,7 +442,7 @@ This is the output we will see after the coversion of .lib to .db file
 
 ![coversion_lib_to_db](https://github.com/user-attachments/assets/c899d1ea-dd28-4fcb-854a-5203b4c803f3)
 
-# Lab - Synthesis and Post Synthesis (Gate Level) Simulation
+## Lab - Synthesis and Post Synthesis (Gate Level) Simulation
 
 
 

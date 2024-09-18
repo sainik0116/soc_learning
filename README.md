@@ -424,12 +424,12 @@ So, just as a heads up , if you are unsuccessful in coverting the .lib to .db fi
 wget [https://raw.githubusercontent.com/efabless/skywater-pdk-libs-sky130_fd_sc_hd/master/timing/sky130_fd_sc_hd__tt_025C_1v80.lib](https://raw.githubusercontent.com/efabless/skywater-pdk-libs-sky130_fd_sc_hd/master/timing/sky130_fd_sc_hd__tt_025C_1v80.lib)
 
 Commands I used to convert .lib to db files :
-'''
+```
 cd /home/sai/VSDBabySoC/src/lib
 lc_shell
 read_lib avsdpll.lib
 write_lib avsdpll -format db -output avsdpll.db
-'''
+```
 
 
 

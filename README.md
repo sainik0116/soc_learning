@@ -427,9 +427,10 @@ Commands I used to convert .lib to db files :
 ```
 cd /home/sai/VSDBabySoC/src/lib
 lc_shell
-read_lib avsdpll.lib
-write_lib avsdpll -format db -output avsdpll.db
+read_lib sky130_fd_sc_hd__tt_025C_1v80.lib
+write_lib avsdpll -format db -output sky130_fd_sc_hd__tt_025C_1v80.db
 ```
+![coversion_lib_to_db](https://github.com/user-attachments/assets/c899d1ea-dd28-4fcb-854a-5203b4c803f3)
 
 
 

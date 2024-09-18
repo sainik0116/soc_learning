@@ -444,6 +444,27 @@ This is the output we will see after the coversion of .lib to .db file
 
 ## Lab - Synthesis and Post Synthesis (Gate Level) Simulation
 
+### Below commands to perform the synthesis:
+
+```
+cd /home/sai/VSDBabySoC/
+dc_shell
+set target_library /home/sai/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db
+set link_library {* /home/sai/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db /home/sai/VSDBabySoC/src/lib/avsddac.db /home/sai/VSDBabySoC/src/lib/avsdpll.db}
+set search_path { /home/sai/VSDBabySoC/src/include/ /home/sai/VSDBabySoC/src/module/}
+read_file {sandpiper_gen.vh  sandpiper.vh  sp_default.vh  sp_verilog.vh clk_gate.v rvmyth.v rvmyth_gen.v vsdbabysoc.v} -autoread -top vsdbabysoc
+link
+read_sdc /home/sai/VSDBabySoC/src/sdc/vsdbabysoc_synthesis.sdc
+compile_ultra
+write_file -format verilog -hierarchy -output /home/sai/VSDBabySoC/output/babysoc_netlist.v
+report_qor > report_qor.txt
+report_timing -nets -attributes -input_pins -transition_time -delay_type max > report_setup_sdc.txt
+report_timing -nets -attributes -input_pins -transition_time -delay_type min > report_hold_sdc.txt
+
+```
+
+
+
 
 
 

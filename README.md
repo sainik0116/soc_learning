@@ -418,6 +418,9 @@ Gate level simulation is used to boost the confidence regarding implementation o
 
 Convert .lib file to .db file using Synopsys Library Compiler (lc_shell). We need .db format for avsddac.lib, avsdpll.lib & sky130_fd_sc_hd__tt_025C_1v80.lib.
 
+So, just as a heads up , if you are unsuccessful in coverting the .lib to .db files then please installl the sky130_fd_sc_hd__tt_025C_1v80.lib file 
+**Use below command to downlaod latest sky130_fd_sc_hd__tt_025C_1v80.lib file:**
+wget [https://raw.githubusercontent.com/efabless/skywater-pdk-libs-sky130_fd_sc_hd/master/timing/sky130_fd_sc_hd__tt_025C_1v80.lib](https://raw.githubusercontent.com/efabless/skywater-pdk-libs-sky130_fd_sc_hd/master/timing/sky130_fd_sc_hd__tt_025C_1v80.lib)
 
 
 

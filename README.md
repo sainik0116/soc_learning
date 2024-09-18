@@ -501,7 +501,7 @@ set_input_transition -max 0.4 [get_ports ENb_CP]
 set_input_transition -min 0.1 [get_ports ENb_CP]
 
 ```
-## Commands to perform synthesis with SDC constraints:
+### Commands to perform synthesis with SDC constraints:
 
 ```
 cd /home/sai/VSDBabySoC/
@@ -518,6 +518,11 @@ report_qor > report_qor_sdc.txt
 report_timing -nets -attributes -input_pins -transition_time -delay_type max > report_setup_sdc.txt
 report_timing -nets -attributes -input_pins -transition_time -delay_type min > report_hold_sdc.txt
 ```
+Compare and observe the differences between qor report before using and after using sdc constraints:
+
+**gvimdiff report_qor.txt report_qor_sdc.txt **
+
+
 
 
 

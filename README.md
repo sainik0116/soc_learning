@@ -528,6 +528,7 @@ SOC-learning : <details>
            cd /home/sai/VSDBabySoC/
            Open pt_shell
            source sta_mul_pvt_primetime.tcl > my_learning_sta_mul_pvt_primetime_run.txt
+           
            ```
            After Successfully running primetime for the design BabySoC
            Open sta_mul_pvt_primetime.tcl

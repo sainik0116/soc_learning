@@ -534,7 +534,6 @@ SOC-learning : <details>
            After Successfully running primetime for the design BabySoC
            Open sta_mul_pvt_primetime.tcl
          
-         ``` 
          PVT_Corner	    WNS	     WHS
          ff_100C_1v65	 2.852984	  -0.250917
          ff_100C_1v95	 4.220676	  -0.304045
@@ -553,19 +552,12 @@ SOC-learning : <details>
          tt_025C_1v80	 0.571624	  -0.190414
          tt_100C_1v80	 0.418252	  -0.185542  
          
-         ```
-         
-         ```
          Graph for WNS: Worst negative slack (Setup)
          
-         ```
          
          ![BabySoC_STA_primetime_no_parasitic_WNS](https://github.com/user-attachments/assets/4efb3881-85f9-42e5-af68-fffd2130eb14)
 
-         ```
          Graph for WHS: Worst hold slack(hold)
-         
-         ```
          
          ![BabySoC_STA_primetime_no_parasitic_WHS](https://github.com/user-attachments/assets/a88ef81e-bfa4-4232-855a-f6b2a749227e)
          

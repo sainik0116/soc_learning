@@ -528,7 +528,7 @@ SOC-learning : <details>
 
 # TCL script used in PT_SHELL:
 ```
-set m1 ""
+   set m1 ""
    set pvt ""
    set wns ""
    set whs ""

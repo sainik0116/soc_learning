@@ -593,10 +593,10 @@ tt_025C_1v80	 0.571624	  -0.190414
 tt_100C_1v80	 0.418252	  -0.185542  
 ```
            
-Graph for WNS: Worst negative slack (Setup):
+## Graph for WNS: Worst negative slack (Setup):
 ![BabySoC_STA_primetime_no_parasitic_WNS](https://github.com/user-attachments/assets/73309255-e2ac-4871-9cdb-90da7ba94ff0)
            
-Graph for WHS: Worst hold slack(hold):
+## Graph for WHS: Worst hold slack(hold):
 ![BabySoC_STA_primetime_no_parasitic_WHS](https://github.com/user-attachments/assets/5022d298-912c-4a7c-aab8-66dad4e66737)
          
          

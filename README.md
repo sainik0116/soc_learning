@@ -521,6 +521,10 @@ Compare and observe the differences between qor report before using and after us
 
 **gvimdiff report_qor.txt report_qor_sdc.txt **
 
+</details>
+SOC-learning : <details>
+           <summary>DAY 9 : STA analysis  of BabySoC before Floorplanning using Primetime</summary>
+           
 
 
 

@@ -525,6 +525,46 @@ Compare and observe the differences between qor report before using and after us
 
 SOC-learning : <details>
                <summary>DAY 9 : STA analysis  of BabySoC before Floorplanning using Primetime</summary> 
+
+# TCL script used in PT_SHELL:
+```
+set m1 ""
+   set pvt ""
+   set wns ""
+   set whs ""
+      
+   set FH [open report_timing_primetime_1.rpt w]
+   puts $FH "PVT_Corner\tWNS\tWHS"
+   
+   set lib_files [glob -directory /home/sai/VSDBabySoC/src/timing_libs/timing -type f *.db]
+   
+   foreach lib_file_paths $lib_files {
+   
+   regexp {.*\/sky130_fd_sc_hd__(.*)\.db$} $lib_file_paths m1 pvt
+   
+   set link_library {* /home/sai/VSDBabySoC/src/lib/avsddac.db /home/sai/VSDBabySoC/src/lib/avsdpll.db}
+   lappend link_path $lib_file_paths
+      
+   read_verilog "/home/sai/VSDBabySoC/output/babysoc_netlist.v"
+   current_design vsdbabysoc
+
+   link_design
+   read_sdc "/home/sai/VSDBabySoC/src/sdc/vsdbabysoc_synthesis.sdc"
+   read_parasitics "/home/sai/VSDBabySoC/output/empty.spef"
+
+   set wns [get_attribute [get_timing_paths -delay_type max -max_paths 1] slack]
+   set whs [get_attribute [get_timing_paths -delay_type min -max_paths 1] slack]
+   
+   puts $FH "$pvt\t$wns\t$whs"
+   report_qor
+   remove_annotated_parasitics -all
+   reset_design
+   remove_design -all
+   remove_lib -all
+  }
+  close $FH
+```
+
 ```
 cd /home/sai/VSDBabySoC/
 Open pt_shell

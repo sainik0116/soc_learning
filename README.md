@@ -543,7 +543,7 @@ SOC-learning : <details>
    regexp {.*\/sky130_fd_sc_hd__(.*)\.db$} $lib_file_paths m1 pvt
    
    set link_library {* /home/sai/VSDBabySoC/src/lib/avsddac.db /home/sai/VSDBabySoC/src/lib/avsdpll.db}
-   lappend link_path $lib_file_paths
+   lappend link_library $lib_file_paths
       
    read_verilog "/home/sai/VSDBabySoC/output/babysoc_netlist.v"
    current_design vsdbabysoc
@@ -574,31 +574,34 @@ Open sta_mul_pvt_primetime.tcl
 ```
 # Table for all PVT corners for WNS and WHS :
 ```
-PVT_Corner	     WNS	       WHS
-ff_100C_1v65	 2.852984	  -0.250917
-ff_100C_1v95	 4.220676	  -0.304045
-ff_n40C_1v56	 1.592035	  -0.208451
-ff_n40C_1v65	 2.574583	  -0.244908
-ff_n40C_1v76	 3.444535	  -0.275657
-ff_n40C_1v95	 4.447599	  -0.312528
-ss_100C_1v40	-18.091564	   0.405345
-ss_100C_1v60	-9.315001	   0.142039
-ss_n40C_1v28	-55.31789	   1.329605
-ss_n40C_1v35	-35.723297	   0.847522
-ss_n40C_1v40	-27.194054	   0.624912
-ss_n40C_1v44	-22.168922	   0.490901
-ss_n40C_1v60	-10.624826	   0.162826
-ss_n40C_1v76	-5.055514	   0.003838
-tt_025C_1v80	 0.571624	  -0.190414
-tt_100C_1v80	 0.418252	  -0.185542  
+  PVT_Corner	WNS	WHS	    TNS 
+ff_100C_1v65	2.852984	-0.250917	-95.06
+ff_100C_1v95	4.220676	-0.304045	-139.34
+ff_n40C_1v56	1.592035	-0.208451	-59.83
+ff_n40C_1v65	2.574583	-0.244908	-87.73
+ff_n40C_1v76	3.444535	-0.275657	-113.61
+ff_n40C_1v95	4.447599	-0.312528	-145.2
+ss_100C_1v40	-18.091564	0.405345	-4154.42
+ss_100C_1v60	-9.315001	0.142039	-1513.98
+ss_n40C_1v28	-55.31789	1.329605	-17138.6
+ss_n40C_1v35	-35.723297	0.847522	-10370.11
+ss_n40C_1v40	-27.194054	0.624912	-7401.59
+ss_n40C_1v44	-22.168922	0.490901	-5699.12
+ss_n40C_1v60	-10.624826	0.162826	-1960.45
+ss_n40C_1v76	-5.055514	0.003838	-542.27
+tt_025C_1v80	0.571624	-0.190414	-39.59
+tt_100C_1v80	0.418252	-0.185542	-34.17
 ```
            
 ## Graph for WNS: Worst negative slack (Setup):
-![BabySoC_STA_primetime_no_parasitic_WNS](https://github.com/user-attachments/assets/73309255-e2ac-4871-9cdb-90da7ba94ff0)
+![WNS_graph_updated](https://github.com/user-attachments/assets/6452462c-c2e5-434a-966f-6ef948e2091f)
            
 ## Graph for WHS: Worst hold slack(hold):
-![BabySoC_STA_primetime_no_parasitic_WHS](https://github.com/user-attachments/assets/5022d298-912c-4a7c-aab8-66dad4e66737)
-         
+![WHS_graph_updated](https://github.com/user-attachments/assets/b83cc90e-e8df-4547-962d-fa75b3ce80fa)
+
+## Graph for TNS : Total Negative Slack
+![TNS_graph_updated](https://github.com/user-attachments/assets/ffad199b-9e89-40c1-9a2b-16a6b0ee3127)
+
          
            
            

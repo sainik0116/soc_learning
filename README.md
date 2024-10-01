@@ -574,7 +574,7 @@ Open sta_mul_pvt_primetime.tcl
 ```
 # Table for all PVT corners for WNS and WHS :
 ```
-  PVT_Corner	WNS	WHS	    TNS 
+  PVT_Corner	     WNS	     WHS	        TNS 
 ff_100C_1v65	2.852984	-0.250917	-95.06
 ff_100C_1v95	4.220676	-0.304045	-139.34
 ff_n40C_1v56	1.592035	-0.208451	-59.83

@@ -602,7 +602,9 @@ tt_100C_1v80	0.418252	-0.185542	-34.17
 ## Graph for TNS : Total Negative Slack
 ![TNS_graph_updated](https://github.com/user-attachments/assets/ffad199b-9e89-40c1-9a2b-16a6b0ee3127)
 
-         
+SOC-learning : <details>
+           <summary>DAY 10 : PHYSICAL DESIGN FLOW</summary>
+           <p>YOSYS :         
            
            
 

@@ -632,7 +632,8 @@ SOC-learning : <details>
 ![21-Lab-history-of-commands-used-2](https://github.com/user-attachments/assets/8836fc01-564b-47fb-8754-fd4cfccf5ae0)
 ![22-Run-Synthesis-Successful](https://github.com/user-attachments/assets/04e02cca-9d6e-4731-9c49-a05f7f0fafaa)
 ![23-prep-design-run-successful](https://github.com/user-attachments/assets/20c3aa43-6d27-426e-8e1c-fe7103c0e044)
-![24-picorv32a-dff-flip-flop-ratio](https://github.com/user-attachments/assets/7ea42bb6-cd90-4ecc-8bff-a8fab3acceb6)
+![24-picorv32a-dff-flip-flop-ratio](https://github.com/user-attachments/assets/a26555b6-f263-46c3-8c84-1d7198b4ec3c)
+
            
 
 

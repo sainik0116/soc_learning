@@ -637,8 +637,9 @@ FLip-Flop ratio = (No of flip-flops)/ (Total no of cells) = 1613/14876
 percentage of DFF's = Flip-Flop Ratio *100 = 10.84 %
 
 ![24-picorv32a-dff-flip-flop-ratio](https://github.com/user-attachments/assets/a26555b6-f263-46c3-8c84-1d7198b4ec3c)
-
-           
+</details>
+DAY 10 : PHYSICAL DESIGN FLOW : <details>   
+                   <summary>Sky130 Day 2 - Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells</summary>
 
 
 

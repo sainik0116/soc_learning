@@ -605,8 +605,8 @@ tt_100C_1v80	0.418252	-0.185542	-34.17
 </details>
 SOC-learning : <details>
            <summary>DAY 10 : PHYSICAL DESIGN FLOW</summary>
-           <p>YOSYS :         
-           
+           DAY 10 : PHYSICAL DESIGN FLOW : <details>   
+                   <summary>Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK</summary>
            
 
 

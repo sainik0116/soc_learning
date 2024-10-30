@@ -607,31 +607,32 @@ SOC-learning : <details>
            <summary>DAY 10 : PHYSICAL DESIGN FLOW</summary>
            DAY 10 : PHYSICAL DESIGN FLOW : <details>   
                    <summary>Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK</summary>
-                   ![1-Die,Core   Pads-chip](https://github.com/user-attachments/assets/2b0ccb28-aafa-4ead-9a91-8f6638d75666).
-                   ![2-Macros,Foundry IP's-Chip](https://github.com/user-attachments/assets/575895c0-acce-452c-9ad8-84d7b1b0f8e0).
-                   ![3-RISC-V-Architecture-Implementation](https://github.com/user-attachments/assets/f2d65bc1-25d8-41f0-bde7-6bbfdb1e1086).
-                   ![4-How-Architecture-got-implemented-into-Hardware](https://github.com/user-attachments/assets/daa294c3-6f84-4cd5-9251-d264d66d0fb5).
-                   ![5-Example-Architecture-got-implemented-into-Hardware](https://github.com/user-attachments/assets/dcea328b-69bf-48fc-9485-6d0ac8b91d0e).
-                   ![6-Architecture-RTL-GDSII-implmentation](https://github.com/user-attachments/assets/95afc78d-57b0-4f7e-b2ef-4047b6506575).
-                   ![7-ASIC-Implementation](https://github.com/user-attachments/assets/3ac03b1a-5d6a-4490-9029-435effc54135).
-                   ![8-Skywater-130nm-RTL-to-GDSII-implementation-chart](https://github.com/user-attachments/assets/682d0a74-fe52-45d4-8ca8-805321465227).
-                   ![9-Skywater-130nm-RTL-to-GDSII-implementation-chart-Synthesis](https://github.com/user-attachments/assets/cdfc8f78-8a15-416e-8442-249c8380d623).
-                   ![10-Skywater-130nm-RTL-to-GDSII-implementation-chart-Synthesis-2](https://github.com/user-attachments/assets/f657296f-e86e-4987-9af8-ad10e3fd95d2).
-                   ![11-Skywater-130nm-RTL-to-GDSII-implementation-chart-Floorplanning](https://github.com/user-attachments/assets/305e3ce8-7876-43de-b606-fde360a26868).
-                   ![12-Skywater-130nm-RTL-to-GDSII-implementation-chart-Powerplanning](https://github.com/user-attachments/assets/45ddf022-b9dd-4337-b40f-7e9e1cf84eaa).
-                   ![13-Skywater-130nm-RTL-to-GDSII-implementation-chart-Placement](https://github.com/user-attachments/assets/4f1a810c-97d4-447a-8bdd-68a8d97287c2).
-                   ![14-Skywater-130nm-RTL-to-GDSII-implementation-chart-Placement2](https://github.com/user-attachments/assets/df14e2e9-5987-4634-9ef5-fae0b8bdd8a0).
-                   ![15-Skywater-130nm-RTL-to-GDSII-implementation-chart-Clock-Tree-Synthesis](https://github.com/user-attachments/assets/e5202fe7-1f7d-4cc4-b7c6-d705ddb4d11d).
-                   ![16-Skywater-130nm-RTL-to-GDSII-implementation-chart-Routing](https://github.com/user-attachments/assets/9ae22a2f-af9c-4948-bf07-f08880b41ad2).
-                   ![17-Skywater-130nm-RTL-to-GDSII-implementation-chart-Routing2](https://github.com/user-attachments/assets/ef3a3b4a-8b14-4b84-a244-98589fb9fb93).
-                   ![18-Skywater-130nm-RTL-to-GDSII-implementation-chart-SignOff](https://github.com/user-attachments/assets/461a446b-6090-4e5a-b42b-e8e00992c5d7).
-                   ![19-OpenLane-ASIC-Flow-Implementation](https://github.com/user-attachments/assets/e3c05e89-3a7a-4705-aa33-7844a26818f5).
-                   ![20-Lab-history-of-commands-used-1](https://github.com/user-attachments/assets/955c0ea4-a23c-4dfd-a644-bc25ab10f471).
-                   ![21-Lab-history-of-commands-used-2](https://github.com/user-attachments/assets/33c4924f-8ee1-43d9-ab1f-5f8fc66ebbdc).
-                   ![22-Run-Synthesis-Successful](https://github.com/user-attachments/assets/71e066c7-9c48-4971-8c86-4e4abc655cf2).
-                   ![23-prep-design-run-successful](https://github.com/user-attachments/assets/4bb8950d-592a-480c-b8ab-e987b0efd80c).
-                   ![24-picorv32a-dff-flip-flop-ratio](https://github.com/user-attachments/assets/76ee463f-0c4a-45c4-8e43-b8de5ac69ac2).
-                   
+           
+## There are some details given about the introduction and synthesis of picorv32a in openlane flow:
+![1-Die,Core   Pads-chip](https://github.com/user-attachments/assets/84389da7-ad0a-4570-8d1a-a816a05d0dd6)
+![2-Macros,Foundry IP's-Chip](https://github.com/user-attachments/assets/da39a4b0-4c2b-43df-8a3c-354f4b5e0eb5)
+![3-RISC-V-Architecture-Implementation](https://github.com/user-attachments/assets/e8eb4c6c-80a6-4084-990d-312f325d4066)
+![4-How-Architecture-got-implemented-into-Hardware](https://github.com/user-attachments/assets/d473affa-5029-4e7c-8cc4-5405e04e9a45)
+![5-Example-Architecture-got-implemented-into-Hardware](https://github.com/user-attachments/assets/69f95974-8087-4771-ad56-ec8560389ac5)
+![6-Architecture-RTL-GDSII-implmentation](https://github.com/user-attachments/assets/2ee6a6ac-b28d-42ae-831a-de19bd2ee8b5)
+![7-ASIC-Implementation](https://github.com/user-attachments/assets/31afc39e-1936-4baf-9242-bc46fb429054)
+![8-Skywater-130nm-RTL-to-GDSII-implementation-chart](https://github.com/user-attachments/assets/7145846e-9a9b-4258-be0e-bdf2dbe7ee4d)
+![9-Skywater-130nm-RTL-to-GDSII-implementation-chart-Synthesis](https://github.com/user-attachments/assets/aaf99813-f13c-47fa-bc6a-64f8151f3c5d)
+![10-Skywater-130nm-RTL-to-GDSII-implementation-chart-Synthesis-2](https://github.com/user-attachments/assets/56a9d204-daa8-4384-9e40-4d621d0190e2)
+![11-Skywater-130nm-RTL-to-GDSII-implementation-chart-Floorplanning](https://github.com/user-attachments/assets/b82d0203-9895-4e68-b2f9-3b8250918158)
+![12-Skywater-130nm-RTL-to-GDSII-implementation-chart-Powerplanning](https://github.com/user-attachments/assets/bb3fe93a-65d0-4d49-9b10-ab4ce1c9c29e)
+![13-Skywater-130nm-RTL-to-GDSII-implementation-chart-Placement](https://github.com/user-attachments/assets/184e21c5-74ec-4b3d-88fa-bb881adb1cf2)
+![14-Skywater-130nm-RTL-to-GDSII-implementation-chart-Placement2](https://github.com/user-attachments/assets/deb2dc8a-118c-426b-a436-6f52c61c91d7)
+![15-Skywater-130nm-RTL-to-GDSII-implementation-chart-Clock-Tree-Synthesis](https://github.com/user-attachments/assets/54320b67-fff1-4ccb-a725-a33a5436e91e)
+![16-Skywater-130nm-RTL-to-GDSII-implementation-chart-Routing](https://github.com/user-attachments/assets/3394a420-957b-4643-865f-c4dc30b5797b)
+![17-Skywater-130nm-RTL-to-GDSII-implementation-chart-Routing2](https://github.com/user-attachments/assets/ff2ef1cb-a013-4cdc-b10b-a6e218496989)
+![18-Skywater-130nm-RTL-to-GDSII-implementation-chart-SignOff](https://github.com/user-attachments/assets/dd031d75-8c2a-4d90-9808-b55124f4f092)
+![19-OpenLane-ASIC-Flow-Implementation](https://github.com/user-attachments/assets/8c782aee-0360-4135-b06f-f3c3a2cd391d)
+![20-Lab-history-of-commands-used-1](https://github.com/user-attachments/assets/fac933ea-9a6a-4cf9-9e99-bc1b2ae7df8c)
+![21-Lab-history-of-commands-used-2](https://github.com/user-attachments/assets/8836fc01-564b-47fb-8754-fd4cfccf5ae0)
+![22-Run-Synthesis-Successful](https://github.com/user-attachments/assets/04e02cca-9d6e-4731-9c49-a05f7f0fafaa)
+![23-prep-design-run-successful](https://github.com/user-attachments/assets/20c3aa43-6d27-426e-8e1c-fe7103c0e044)
+![24-picorv32a-dff-flip-flop-ratio](https://github.com/user-attachments/assets/7ea42bb6-cd90-4ecc-8bff-a8fab3acceb6)
            
 
 
